@@ -1,16 +1,21 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "IndustrialEnergistics",
+  "name": "Industrial Energistics",
+  "description": "An AE2-Addon to allow easier and more advanced Industrial Builds with Applied Energistics 2.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": [
+    "zanges"
+  ],
+  "credits": "To all Devs of Applied Energistics 2 for the great Mod and Pahimar and for there great Tutorials!",
   "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
 }
 ]
