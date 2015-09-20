@@ -12,7 +12,7 @@ import net.zanges.industrialenergistics.proxy.IProxy;
 import net.zanges.industrialenergistics.reference.Reference;
 import net.zanges.industrialenergistics.utility.LogHelper;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "after:appliedenergistics2)", guiFactory = Reference.GUI_FACTORY_CLASS)
 public class IndustrialEnergistics
 {
     @Mod.Instance(Reference.MOD_ID)
