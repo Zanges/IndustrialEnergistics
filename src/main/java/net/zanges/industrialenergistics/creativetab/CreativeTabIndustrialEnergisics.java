@@ -6,7 +6,7 @@ import net.zanges.industrialenergistics.reference.Reference;
 
 public class CreativeTabIndustrialEnergisics
 {
-    public static final CreativeTabs IndustrialEnergisicsTab = new CreativeTabs(Reference.MOD_ID.toLowerCase())
+    public static final CreativeTabs IndustrialEnergisicsTab = new CreativeTabs(Reference.LC_MOD_ID)
     {
         @Override
         public Item getTabIconItem()
