@@ -8,6 +8,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.zanges.industrialenergistics.proxy.IProxy;
 import net.zanges.industrialenergistics.reference.Reference;
+import net.zanges.industrialenergistics.utility.LogHelper;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class IndustrialEnergistics
@@ -21,18 +22,22 @@ public class IndustrialEnergistics
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        LogHelper.info("Starting Pre Initialization...");
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        LogHelper.info("Starting Initialization...");
+        LogHelper.info("Initialization Complete!");
 
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        LogHelper.info("Starting Post Initialization...");
+        LogHelper.info("Post Initialization Complete!");
     }
 }
